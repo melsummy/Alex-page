@@ -1,0 +1,71 @@
+div[id="mainpoint"] {
+    margin: auto;
+    padding: 2% 10%; /* Larger padding for the h1 box */
+    border: 4px solid #ffffff; /* Thicker border for the h1 box */
+   
+    font-size: 1.8em; /* Larger font size for the h1 text */
+    height: 32em;
+
+}
+#mainpoint img {
+    max-width: 100%;  /* scale down with the container */
+    height: auto;     /* keep aspect ratio */
+  }
+
+  #mainpoint img[alt="family"] {
+   position: static;
+   width: 20%;
+   z-index: 2;
+  }
+  
+  #mainpoint img[alt="sideways1"] {
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    
+    z-index: -1;
+  }
+
+  #mainpoint p[id="mainpointtext"] {
+   position: absolute;
+   font-size: larger;
+   top: 60%;
+   left: 50%;
+  }
+  #mainpoint p[id="mainpointtext2"] {
+    position: absolute;
+    font-size: larger;
+    top: 65%;
+    left: 51%;
+   }
+
+  #mainpoint img[alt="ardy"] {
+   left: 37%;
+   position: absolute;
+   top: 95%;
+   width: 35%;
+   z-index: 1;
+  }
+
+  #mainpoint img[alt="up"] {
+    position: absolute;
+   
+    top: 80%;
+    left: 45%;
+    z-index: -1;
+  }
+
+  #mainpoint img[alt="up2"] {
+    position: absolute;
+   
+    top: 40%;
+    left: 75%;
+    z-index: -1;
+  }
+
+  #mainpoint img[alt="sideways2"] {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    z-index: -1;
+  }
